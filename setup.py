@@ -22,9 +22,9 @@ setup_args = dict(
 )
 
 install_requires = [
-    'pycryptodome==3.14.1',
+    'pycryptodome>=3.14.1',
     'pkcs7==0.1.2',
-    'requests==2.24.0',
+    'requests>=2.27.1',
 ]
 
 if __name__ == '__main__':
